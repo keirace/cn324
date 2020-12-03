@@ -13,12 +13,16 @@
 อธิบายเกี่ยวกับ headers ของโปรโตคอล TCP และ IP ทั้ง IPv4 และ IPv6
 [TCP/IP headers](https://youtu.be/ki53k7tfotc)
 ### 3. TCP/IP headers (เพิ่มวิธีการส่งระหว่าง network)
-อธิบายเพิ่มเติมในส่วนของการส่ง packet ระหว่าง network โดpกำหนดเป็น LAN network และ WIFI network ซึ่งเชื่อมกันด้วย router ที่อยู่ระหว่างเครือข่ายทั้งสอง
+อธิบายเพิ่มเติมในส่วนของการส่ง packet ระหว่าง network โดpกำหนดเป็น LAN network และ WIFI network ซึ่งเชื่อมกันด้วย router ที่อยู่ระหว่างเครือข่ายทั้งสอง <br>
 [TCP/IP headers (เพิ่มวิธีการส่งระหว่าง network)](https://youtu.be/7yGRjiYn2CM)
 ### 4. Hash functions and PKI
-ศึกษาในส่วนของ Hash Function ซึ่งเป็นฟังก์ชันที่ใช้ digest ข้อมูลให้มีขนาดเท่ากัน และ PKI หรือ Public Key Infrastructure ซึ่งเป็นรูปแบบการเข้ารหัสข้อมูล ประกอบไปด้วยแบบ symmetric (ใช้กุญแจตัวเดียว) และ asymmetric (ใช้ private และ public key) รวมไปถึง Digital Signature ซึ่งเป็นการนำแนวคิดของ Hash Function มาผสมกับ PKI และได้ผลลัพธ์ออกมาเป็นการลงลายมือชื่อทางออนไลน์ นำไปใช้ในการตรวจสอบยืนยันตัวบุคคลได้
+ศึกษาในส่วนของ Hash Function ซึ่งเป็นฟังก์ชันที่ใช้ digest ข้อมูลให้มีขนาดเท่ากัน และ PKI หรือ Public Key Infrastructure ซึ่งเป็นรูปแบบการเข้ารหัสข้อมูล ประกอบไปด้วยแบบ symmetric (ใช้กุญแจตัวเดียว) และ asymmetric (ใช้ private และ public key) รวมไปถึง Digital Signature ซึ่งเป็นการนำแนวคิดของ Hash Function มาผสมกับ PKI และได้ผลลัพธ์ออกมาเป็นการลงลายมือชื่อทางออนไลน์ นำไปใช้ในการตรวจสอบยืนยันตัวบุคคลได้<br>
 [Hash functions and PKI](https://youtu.be/vAZFbvOROug)
-### 5. [Key pair](https://youtu.be/DPmdFAXuIBw)
-### 6. [Traceroute](https://youtu.be/QBNvroTTlDU)
-### 7. [Git objects structure](https://youtu.be/pszhYeB_qZg)
-### 8. [IPFS](https://youtu.be/gQ6CjGrtQUg)
+### 5. Key pair
+[Key pair](https://youtu.be/DPmdFAXuIBw)
+### 6. Traceroute
+[Traceroute](https://youtu.be/QBNvroTTlDU)
+### 7. Git object structure
+[Git objects structure](https://youtu.be/pszhYeB_qZg)
+### 8. IPFS
+[IPFS](https://youtu.be/gQ6CjGrtQUg)
