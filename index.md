@@ -47,7 +47,7 @@
 
 
 ## Midterm exam
-1. [ข้อ 1](https://youtu.be/EIPNZAGMSZc) **Internet** 
-2. [ข้อ 2](https://youtu.be/2rz3v2JLqRU) **Internet Protocol (IP)**
-3. [ข้อ 6](https://youtu.be/Ch9F8j0ZSlI) **Domain Name System (DNS)**
-4. [ข้อ 7](https://youtu.be/lmtC7YhDqrs) **Address Resolution Protocol (ARP)**
+- [ข้อ 1](https://youtu.be/EIPNZAGMSZc) **Internet** 
+- [ข้อ 2](https://youtu.be/2rz3v2JLqRU) **Internet Protocol (IP)**
+- [ข้อ 6](https://youtu.be/Ch9F8j0ZSlI) **Domain Name System (DNS)**
+- [ข้อ 7](https://youtu.be/lmtC7YhDqrs) **Address Resolution Protocol (ARP)**
