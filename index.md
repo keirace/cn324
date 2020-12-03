@@ -1,37 +1,24 @@
-## Welcome to GitHub Pages
+# cn324 - Internet Technologies 2020 semester 1
+เนื้อหาในรายวิชา cn324 Internet Techonologies นั้นครอบคลุมความรู้ที่จำเป็นของอินเทอร์เน็ตในยุคปัจจุบัน ซึ่งประกอบไปด้วยถึงความรู้ทางด้าน network เช่น อุปกรณ์เกี่ยวข้องกับการทำงานของอินเทอร์เน็ต หน่วยงานที่เกี่ยวข้องกับมาตรฐานโปรโตคอล ลักษณะและการทำงานของโปรโตคอลต่าง ๆ ความแตกต่างของ IPv4/IPv6 ตลอดจนถึงวิธีการส่งข้อมูลผ่าน network นอกจากนี้ยังได้เรียนรู้เกี่ยวกับสิ่งสำคัญซึ่งเพิ่มความปลอดภัยให้แก่อินเทอร์เน็ตในปัจจุบัน ซึ่งก็คือ Digital Signature ที่เกิดมาจากแนวคิดของ Key Pair Technology และ Hash Function รวมไปถึง IPFS ซึ่งเป็นอนาคตของอินเทอร์เน็ตที่ไม่จำเป็นต้องพึ่งพาระบบเครือข่ายแบบรวมศูนย์ (Centralized Server) อีกต่อไป
 
-You can use the [editor on GitHub](https://github.com/keirace/cn324/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Midterm exam
+- [ข้อ 1](https://youtu.be/EIPNZAGMSZc)
+- [ข้อ 2](https://youtu.be/2rz3v2JLqRU)
+- [ข้อ 6](https://youtu.be/Ch9F8j0ZSlI)
+- [ข้อ 7](https://youtu.be/lmtC7YhDqrs)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/keirace/cn324/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Materials
+### 1. [ข้อสอบเก่า](https://youtu.be/vAZFbvOROug)
+### 2. TCP/IP headers 
+อธิบายเกี่ยวกับ headers ของโปรโตคอล TCP และ IP ทั้ง IPv4 และ IPv6
+[TCP/IP headers](https://youtu.be/ki53k7tfotc)
+### 3. TCP/IP headers (เพิ่มวิธีการส่งระหว่าง network)
+อธิบายเพิ่มเติมในส่วนของการส่ง packet ระหว่าง network โดpกำหนดเป็น LAN network และ WIFI network ซึ่งเชื่อมกันด้วย router ที่อยู่ระหว่างเครือข่ายทั้งสอง
+[TCP/IP headers (เพิ่มวิธีการส่งระหว่าง network)](https://youtu.be/7yGRjiYn2CM)
+### 4. Hash functions and PKI
+ศึกษาในส่วนของ Hash Function ซึ่งเป็นฟังก์ชันที่ใช้ digest ข้อมูลให้มีขนาดเท่ากัน และ PKI หรือ Public Key Infrastructure ซึ่งเป็นรูปแบบการเข้ารหัสข้อมูล ประกอบไปด้วยแบบ symmetric (ใช้กุญแจตัวเดียว) และ asymmetric (ใช้ private และ public key) รวมไปถึง Digital Signature ซึ่งเป็นการนำแนวคิดของ Hash Function มาผสมกับ PKI และได้ผลลัพธ์ออกมาเป็นการลงลายมือชื่อทางออนไลน์ นำไปใช้ในการตรวจสอบยืนยันตัวบุคคลได้
+[Hash functions and PKI](https://youtu.be/vAZFbvOROug)
+### 5. [Key pair](https://youtu.be/DPmdFAXuIBw)
+### 6. [Traceroute](https://youtu.be/QBNvroTTlDU)
+### 7. [Git objects structure](https://youtu.be/pszhYeB_qZg)
+### 8. [IPFS](https://youtu.be/gQ6CjGrtQUg)
