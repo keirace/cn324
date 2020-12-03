@@ -24,11 +24,11 @@
 [link](https://youtu.be/DPmdFAXuIBw)
 ### 6. Traceroute
 ศึกษาการใช้คำสั่ง traceroute ในการหาเส้นทางที่ใช้ในการเดินทางไปยังเว็บไซต์ทั้ง 5 เว็บไซต์ โดยเริ่มจากการ ssh ไปยังเซิร์ฟเวอร์ แล้ว traceroute โดยที่ <br>
-tail -n +2 คือการตัดมาเฉพาะบรรทัดที่ 2 ลงไป <br>
-awk '{ print $2 }' คือการ print เฉพาะ column ที่ 2 (หมายเลข IP) <br>
-grep -E -o "([0-9]{1,3}[\.]){3}[0-9]{1,3}" คือการเลืออกเฉพาะบรรทัดที่มีหมายเลข IP (บางทรรทัดเป็น \*) <br>
-while read r; do echo "\\"htt<span></span>ps://tools.keycdn.com/geo.json?host=$r\""; done คือการค้นหาข้อมูลเกี่ยวกับ IP address นั้น ๆ เช่น พิกัดที่ตั้ง ซึ่งจะได้ข้อมูลกลับมาเป็น json <br>
-และ jq ช่วยในการแปลงข้อมูล json ให้มีโครงสร้างที่อ่านได้ง่ายขึ้น
+**tail -n +2** คือการตัดมาเฉพาะบรรทัดที่ 2 ลงไป <br>
+**awk '{ print $2 }'** คือการ print เฉพาะ column ที่ 2 (หมายเลข IP) <br>
+**grep -E -o "([0-9]{1,3}[\.]){3}[0-9]{1,3}"** คือการเลืออกเฉพาะบรรทัดที่มีหมายเลข IP (บางทรรทัดเป็น \*) <br>
+**while read r; do echo "\\"htt<span></span>ps://tools.keycdn.com/geo.json?host=$r\""; done** คือการค้นหาข้อมูลเกี่ยวกับ IP address นั้น ๆ เช่น พิกัดที่ตั้ง ซึ่งจะได้ข้อมูลกลับมาเป็น json <br>
+และ **jq** ช่วยในการแปลงข้อมูล json ให้มีโครงสร้างที่อ่านได้ง่ายขึ้น <br>
 [commands](https://github.com/keirace/cn324/blob/master/traceroute)<br>
 [link](https://youtu.be/QBNvroTTlDU)
 ### 7. Git object structure
