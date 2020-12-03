@@ -30,7 +30,7 @@
 > `grep -E -o "([0-9]{1,3}[\.]){3}[0-9]{1,3}"` คือการเลืออกเฉพาะบรรทัดที่มีหมายเลข IP (บางทรรทัดเป็น \*) <br>
 > `while read r; do echo "\"https://tools.keycdn.com/geo.json?host=$r\""; done` คือการค้นหาข้อมูลเกี่ยวกับ IP address นั้น ๆ เช่น พิกัดที่ตั้ง ซึ่งจะได้ข้อมูลกลับมาเป็น json <br>
 > และ `jq` ช่วยในการแปลงข้อมูล json ให้มีโครงสร้างที่อ่านได้ง่ายขึ้น <br>
-> [commands](https://github.com/keirace/cn324/blob/master/traceroute)<br>
+> [commands](https://github.com/keirace/cn324/blob/gh-pages/traceroute)<br>
 > [link to clip#6](https://youtu.be/QBNvroTTlDU)
 
 ### 7. Git object structure
@@ -47,7 +47,7 @@
 
 
 ## Midterm exam
-- [ข้อ 1](https://youtu.be/EIPNZAGMSZc)
-- [ข้อ 2](https://youtu.be/2rz3v2JLqRU)
-- [ข้อ 6](https://youtu.be/Ch9F8j0ZSlI)
-- [ข้อ 7](https://youtu.be/lmtC7YhDqrs)
+1. [ข้อ 1](https://youtu.be/EIPNZAGMSZc) **Internet** 
+2. [ข้อ 2](https://youtu.be/2rz3v2JLqRU) **Internet Protocol (IP)**
+3. [ข้อ 6](https://youtu.be/Ch9F8j0ZSlI) **Domain Name System (DNS)**
+4. [ข้อ 7](https://youtu.be/lmtC7YhDqrs) **Address Resolution Protocol (ARP)**
