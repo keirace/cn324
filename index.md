@@ -5,18 +5,23 @@
 ## Materials
 ### 1. ข้อสอบเก่า
 > [link to clip#1](https://youtu.be/vAZFbvOROug)
+
 ### 2. TCP/IP headers 
->อธิบายเกี่ยวกับ headers ของโปรโตคอล TCP และ IP ทั้ง IPv4 และ IPv6<br>
+> อธิบายเกี่ยวกับ headers ของโปรโตคอล TCP และ IP ทั้ง IPv4 และ IPv6<br>
 > [link to clip#2](https://youtu.be/ki53k7tfotc)
+
 ### 3. TCP/IP headers (เพิ่มวิธีการส่งระหว่าง network)
 > อธิบายเพิ่มเติมในส่วนของการส่ง packet ระหว่าง network โดpกำหนดเป็น LAN network และ WIFI network ซึ่งเชื่อมกันด้วย router ที่อยู่ระหว่างเครือข่ายทั้งสอง <br>
 > [link to clip#3](https://youtu.be/7yGRjiYn2CM)
+
 ### 4. Hash functions and PKI
 > ศึกษาในส่วนของ Hash Function ซึ่งเป็นฟังก์ชันที่ใช้ digest ข้อมูลให้มีขนาดเท่ากัน และ PKI หรือ Public Key Infrastructure ซึ่งเป็นรูปแบบการเข้ารหัสข้อมูล ประกอบไปด้วยแบบ symmetric (ใช้กุญแจตัวเดียว) และ asymmetric (ใช้ private และ public key) รวมไปถึง Digital Signature ซึ่งเป็นการนำแนวคิดของ Hash Function มาผสมกับ PKI และได้ผลลัพธ์ออกมาเป็นการลงลายมือชื่อทางออนไลน์ นำไปใช้ในการตรวจสอบยืนยันตัวบุคคลได้<br>
 > [link to clip#4](https://youtu.be/vAZFbvOROug)
+
 ### 5. Generating Key pair
 > ศึกษาในส่วนของการสร้าง key pair โดยใช้คำสั่ง ssh -keygen ใน git bash<br>
 > [link to clip#5](https://youtu.be/DPmdFAXuIBw)
+
 ### 6. Traceroute
 > ศึกษาการใช้คำสั่ง traceroute ในการหาเส้นทางที่ใช้ในการเดินทางไปยังเว็บไซต์ทั้ง 5 เว็บไซต์ โดยเริ่มจากการ ssh ไปยังเซิร์ฟเวอร์ แล้ว traceroute โดยที่ <br>
 > `tail -n +2` คือการตัดมาเฉพาะบรรทัดที่ 2 ลงไป <br>
@@ -26,12 +31,15 @@
 > และ `jq` ช่วยในการแปลงข้อมูล json ให้มีโครงสร้างที่อ่านได้ง่ายขึ้น <br>
 > [commands](https://github.com/keirace/cn324/blob/master/traceroute)<br>
 > [link to clip#6](https://youtu.be/QBNvroTTlDU)
+
 ### 7. Git object structure
 > ศึกษาลักษณะโครงสร้างของวัตถุใน git และทดลองโดยการอ่านไฟล์ เพิ่มไฟล์ และแก้ไขไฟล์<br>
 > [link to clip#7](https://youtu.be/pszhYeB_qZg)
+
 ### 8. IPFS
 > ศึกษาเกี่ยวกับความหมายของ IPFS การทำงานของ IPFS ข้อดี-ข้อเสีย ตลอดจนถึงวิธีการแก้ปัญหาของข้อเสียนั้น <br>
 > [link to clip#8](https://youtu.be/gQ6CjGrtQUg)
+
 ### 9. IPFS Hands-on
 > ศึกษาการใช้ IPFS โดยเริ่มจากการเชื่อมต่อ และอัพโหลดไฟล์ขึ้นสู่ IPFS <br>
 > [link to clip#9](https://youtu.be/ZLe-V6PJXKk)
